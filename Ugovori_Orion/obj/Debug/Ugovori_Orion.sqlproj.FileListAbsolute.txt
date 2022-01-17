@@ -1,0 +1,10 @@
+C:\Users\Milan\source\repos\Praksa\Ugovori_Orion\bin\Debug\Ugovori_Orion.dacpac
+C:\Users\Milan\source\repos\Praksa\Ugovori_Orion\bin\Debug\Ugovori_Orion.dll
+C:\Users\Milan\source\repos\Praksa\Ugovori_Orion\bin\Debug\Ugovori_Orion.pdb
+C:\Users\Milan\source\repos\Praksa\Ugovori_Orion\obj\Debug\Ugovori_Orion.sqlprojAssemblyReference.cache
+C:\Users\Milan\source\repos\Praksa\Ugovori_Orion\obj\Debug\Model.xml
+C:\Users\Milan\source\repos\Praksa\Ugovori_Orion\obj\Debug\refactor.xml
+C:\Users\Milan\source\repos\Praksa\Ugovori_Orion\obj\Debug\postdeploy.sql
+C:\Users\Milan\source\repos\Praksa\Ugovori_Orion\obj\Debug\predeploy.sql
+C:\Users\Milan\source\repos\Praksa\Ugovori_Orion\obj\Debug\Ugovori_Orion.dll
+C:\Users\Milan\source\repos\Praksa\Ugovori_Orion\obj\Debug\Ugovori_Orion.pdb

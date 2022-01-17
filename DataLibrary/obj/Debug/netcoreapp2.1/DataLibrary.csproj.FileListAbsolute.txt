@@ -1,0 +1,9 @@
+C:\Users\Milan\source\repos\Praksa\DataLibrary\bin\Debug\netcoreapp2.1\DataLibrary.deps.json
+C:\Users\Milan\source\repos\Praksa\DataLibrary\bin\Debug\netcoreapp2.1\DataLibrary.dll
+C:\Users\Milan\source\repos\Praksa\DataLibrary\obj\Debug\netcoreapp2.1\DataLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Milan\source\repos\Praksa\DataLibrary\obj\Debug\netcoreapp2.1\DataLibrary.AssemblyInfoInputs.cache
+C:\Users\Milan\source\repos\Praksa\DataLibrary\obj\Debug\netcoreapp2.1\DataLibrary.AssemblyInfo.cs
+C:\Users\Milan\source\repos\Praksa\DataLibrary\bin\Debug\netcoreapp2.1\DataLibrary.pdb
+C:\Users\Milan\source\repos\Praksa\DataLibrary\obj\Debug\netcoreapp2.1\DataLibrary.dll
+C:\Users\Milan\source\repos\Praksa\DataLibrary\obj\Debug\netcoreapp2.1\DataLibrary.pdb
+C:\Users\Milan\source\repos\Praksa\DataLibrary\obj\Debug\netcoreapp2.1\DataLibrary.csprojAssemblyReference.cache

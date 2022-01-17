@@ -1,0 +1,67 @@
+﻿@model Praksa.Models.Ugovor
+
+@{
+    ViewData["Title"] = "UgovorEdit";
+}
+
+<h2>UgovorEdit</h2>
+
+<h4>Ugovor</h4>
+<b style="color:red;">@ViewData["Message"]</b>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="UgovorEdit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Id" class="control-label"></label>
+                <input asp-for="Id" class="form-control" />
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="KIme" class="control-label"></label>
+                <input asp-for="KIme" class="form-control" />
+                <span asp-validation-for="KIme" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Trajanje" class="control-label"></label>
+                <input asp-for="Trajanje" class="form-control" />
+                <span asp-validation-for="Trajanje" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Popust" class="control-label"></label>
+                <input asp-for="Popust" class="form-control" />
+                <span asp-validation-for="Popust" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Gratis" class="control-label"></label>
+                <input asp-for="Gratis" class="form-control" />
+                <span asp-validation-for="Gratis" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Net" class="control-label"></label>
+                @Html.DropDownList("Net")
+                <span asp-validation-for="Net" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Iptv" class="control-label"></label>
+                @Html.DropDownList("Iptv")
+                <span asp-validation-for="Iptv" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Voip" class="control-label"></label>
+                @Html.DropDownList("Voip")
+                <span asp-validation-for="Voip" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Stat" class="control-label"></label>
+                <input asp-for="Stat" class="form-control" />
+                <span asp-validation-for="Stat" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+<partial name="IzmenaPregled" />

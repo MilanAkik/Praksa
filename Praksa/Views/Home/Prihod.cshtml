@@ -1,0 +1,27 @@
+﻿@model Praksa.Models.Prihod
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.prihod)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in ViewData["Prihodi"] as IList<Prihod>)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.prihod)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

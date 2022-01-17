@@ -1,0 +1,35 @@
+﻿@*@model Praksa.Models.Izmena*@
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Datum
+                @*@Html.DisplayNameFor(model => model.Datum)*@
+            </th>
+            <th>
+                Aktivan
+                @*@Html.DisplayNameFor(model => model.Stat)*@
+            </th>
+            <th>
+                Suma
+                @*@Html.DisplayNameFor(model => model.Suma)*@
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in ViewData["Izmene"] as IList<Izmena>) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Datum)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Stat)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Suma)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

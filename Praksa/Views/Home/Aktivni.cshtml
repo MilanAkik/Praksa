@@ -1,0 +1,24 @@
+﻿@model Praksa.Models.Aktivni
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.aktivni)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.neaktivni)
+            </th>
+        </tr>
+    </thead>
+        <tbody>
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => ((Aktivni)ViewData["Aktivni"]).aktivni)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => ((Aktivni)ViewData["Aktivni"]).neaktivni)
+                </td>
+            </tr>
+        </tbody>
+</table>

@@ -1,0 +1,59 @@
+﻿@model Praksa.Models.Paket
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Naziv)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Opis)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cena)
+            </th>
+            <th>
+                Kategorija
+                @*@Html.DisplayNameFor(model => model.Kategorija)*@
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in ViewData["Paketi"] as IList<Paket>)
+{
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Naziv)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Opis)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Cena)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.kat[item.Kategorija])
+                    @*
+        @if (item.Kategorija == 1)
+        {
+            <p>Net</p>
+        }
+        @if (item.Kategorija == 2)
+        {
+            <p>Iptv</p>
+        }
+        @if (item.Kategorija == 3)
+        {
+            <p>Voip</p>
+        }
+                    *@
+                </td>
+                <td>
+                    @Html.ActionLink("Brisanje", "PaketBrisanje", new { item.id }) |
+                    @Html.ActionLink("Edit", "PaketEdit", new { item.id })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
